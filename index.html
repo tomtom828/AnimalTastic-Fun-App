@@ -1,0 +1,63 @@
+<!-- @author: Thomas Thompson
+@github: tomtom28
+@comment: HW 6 -->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Animaltastic App</title>
+
+		<!-- Link in CSS Style -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	</head>
+	<body>
+
+		<!-- Title Page -->
+		<h1 id = "logo">The Animal-tastic Fun App!</h1>
+
+		<br>
+		
+		<div id = "main_container">
+			<!-- Div to Append Animal Buttons -->
+			<div id = "animal_buttons"></div>
+
+
+			<!-- Div to contian Animal Inputs Form -->
+			<div>
+				<form id = "animal_form">
+
+					<!-- Label for Form -->
+					<label for = "animal_input">Add an Animal!</label>
+
+					<br>
+
+					<!-- Input Box -->
+					<input type="text" id="animal_input">
+
+					<br>
+
+					<!-- Submit Button -->
+					<input id = "add_animal" type="submit">	
+
+				</form>
+			</div>
+
+
+			<!-- Div to contain AJAX outputs of Animals -->
+			<div id = "animal_images"></div>
+
+		</div>
+
+
+		<!-- Link in jQuery -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+		<!-- Link in Animal API and Basic JavaScript -->
+		<script src="assets/javascript/giphy.js"></script>
+
+
+	</body>
+</html>
