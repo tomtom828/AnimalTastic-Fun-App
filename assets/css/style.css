@@ -3,30 +3,50 @@
 @comment: HW 6*/
 
 #logo{
-	font-size: 50px;
+	font-size: 75px;
 
-	margin-left: 20px;
+	margin-left: 30px;
 	margin-top: 20px;
 
 	font-weight: bold;
+	font-family: 'Baloo Tamma', cursive;
 }
 
+
 body{
-	background-color: #f2f2f2;
+	background-color: #fff9e6;
+	/*background-image: url("../images/pawprint_background.png");*/
+
+	font-family: 'Baloo Tamma', cursive;
+	color: #000000;
+}
+
+html{
+	border: 30px solid;
+	border-image: url("../images/pawprint_background.png") 30 round;
+
+	/*border: 2px solid;*/
+	border-color: #ac7339;
+
+	min-height: 100%;
+}
+
+#animaltastic{
+	font-style: italic;
+	color: #ff0000;
 }
 
 #main_container{
-	margin-left: 20px;
+	opacity: 1;
+	margin-left: 35px;
 }
 
+#animal_input_box{
+	float: right;
 
-
-#animal_form{
-	
-	/*float: right;*/
-	margin-left: 75%;
-
+	padding-right: 10%;
 }
+
 
 label{
 	font-weight: bold;
@@ -54,11 +74,21 @@ label{
 	margin-top: 10px;
 }
 
+
+
 #animal_input{
 	height: 20px;
 	width: 200px;
 
 	margin-top: 10px;
+}
+
+#animal_buttons{
+	margin-right: 20%;
+}
+
+#animal_images{
+	margin-right: 25%;
 }
 
 
@@ -80,11 +110,16 @@ button {
 }
 
 
-#animal_images{
+.gif_container{
 
 	display: inline;
-	/*float: left;*/
+	float: left;
+
+	margin-left: 20px;
+	margin-right: 20px;
+
 }
+
 
 h1{
 	margin-top: 15px;
@@ -93,4 +128,7 @@ h1{
 	font-size: 20px;
 	font-weight: bold;
 }
+
+
+
 

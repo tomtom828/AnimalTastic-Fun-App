@@ -4,7 +4,7 @@
 
 
 // Initial array of animals
-var animals = ['cat', 'dog', 'hamster', 'goldfish', 'frog', 'snail', 'turtle', 'rabbit', 'monkey', 'skunk', 'bird', 'squirrel', 'hedgehog', 'ferret'];
+var animals = ['cat', 'dog', 'hamster', 'goldfish', 'frog', 'snail', 'turtle', 'rabbit', 'monkey', 'skunk', 'bird', 'squirrel', 'hedgehog', 'ferret', 'zebra', 'lion', 'eagle', 'rhino', 'elephant', 'butterfly'];
 
 
 // -------------------------- Functions  --------------------------
