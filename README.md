@@ -1,5 +1,6 @@
 # AnimalTastic-Fun-App
 A Webapp that uses jQuery, AJAX and the GIPHY API to display cute animal GIFs of your choosing.
+
 Please checkout out the deployed app on Heroku [here](http://animaltastic-fun-app.herokuapp.com)!
 
 # Screenshots
