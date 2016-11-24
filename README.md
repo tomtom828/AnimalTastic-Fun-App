@@ -7,5 +7,5 @@ Please checkout out the deployed app on Heroku [here](http://animaltastic-fun-ap
 ### Click on a blue animal button to pull in GIFs from GIPHY 
 ![Animal Button](/screenshots/GIF.png)
 
-### Add a new animal button using the form and press sumbit 
+### Add a new animal button using the form and press submit 
 ![Animal Button](/screenshots/Submit.png)
